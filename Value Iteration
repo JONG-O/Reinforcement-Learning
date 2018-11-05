@@ -2,7 +2,10 @@ import gym
 import numpy as np
 
 env = gym.make ('FrozenLake-v0')
+
+# To resolve compile error 'TimeLimit' object has no attribute 'P', added the line
 env = env.unwrapped
+
 env.render()
 
 def value_iteration(env, gamma = 1.0):
