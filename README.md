@@ -1,4 +1,4 @@
-* Referece books 
+Referece books 
 
 A. Reinfocement Learning
 1. Reinfocement Learning Introduction by Sutton
